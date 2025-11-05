@@ -1,13 +1,18 @@
 #include <iostream>
 using namespace std;
+
 int i = 0;
-int sum = 0;
+int num = 0;
+int x = 0;
 
 int main() {
-    while (i < 5) {
+    cout << "Enter number: ";
+    cin >> num;
+    while (i < num) {
         i = i + 1;
-        sum = sum + i;
+        x = x + i;
     }
-    cout << "The sum from 1 to 5 is " << sum;
+    cout << "The sum from 1 to " << num << " is " << x << ".";
+    
     return 0;
 }
