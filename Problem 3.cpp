@@ -18,5 +18,6 @@ int main() {
     }
     cout << "Even numbers in the list: " << even_numbers << endl;
     cout << "Odd numbers in the list: " << odd_numbers << endl;
+    return 0;
 }
 
